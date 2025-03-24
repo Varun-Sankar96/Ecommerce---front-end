@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.img-resize{
+    height: 35rem;
+    width: 65rem;
+
+}
