@@ -6,7 +6,7 @@ import { FaUser } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
 import Model from "./Model";
 import Register from "./Register";
-import Login from "./login";
+import Login from "./Login";
 import { setSearchTerm } from "../redux/productSlice";
 
 
@@ -75,7 +75,7 @@ const Navbar = () => {
           to={"/"}
           className="relative after:block after:content-[''] after:absolute after:w-0 after:h-[2px] after:bg-black after:left-0 after:bottom-0 after:transition-all after:duration-300 after:ease-in hover:after:w-full"
         >
-          Home
+          Home  
         </Link>
         <Link
           to={"/shop"}
